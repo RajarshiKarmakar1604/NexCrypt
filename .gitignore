@@ -1,0 +1,28 @@
+# VaultCLI data files - contain sensitive user data
+user_data.txt
+user_salts.txt
+passwords.txt
+
+# Temporary files
+temp_user.txt
+temp_salts.txt
+temp_pass.txt
+temp.txt
+readme.txt
+
+# Compiled binaries
+vaultcli
+vaultcli.exe
+*.o
+*.obj
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
