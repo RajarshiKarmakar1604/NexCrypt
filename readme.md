@@ -82,7 +82,7 @@ gcc -o NexCrypt NexCrypt.c -lsodium
 ```
 ### Windows (MinGW) 🪟
 ```bash
-gcc main.c -IC:"path of your Libsodium .\include folder" -LC:"path of your Libsodium .\lib folder" -lsodium -o NexCrypt.exe
+gcc main.c -IC:"Path of your ./include folder" -LC:"Path of your ./include folder" -lsodium -o NexCrypt.exe
 ```
 📝 Ensure libsodium.dll is either in the same directory as NexCrypt.exe or added to your system PATH.
 
