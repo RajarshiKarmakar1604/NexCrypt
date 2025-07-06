@@ -1,8 +1,14 @@
-# VaultCLI 🔐
+# NexCrypt 🔐
+### ⚠️ WARNING: Not Production Ready ⚠️
+
+> **NexCrypt is under active development and is NOT ready for public or production use.**  
+> Security has not been audited, and bugs may be present.  
+> **Use entirely at your own risk.**
+
 
 A secure, cross-platform command-line password manager built with C and libsodium cryptography.
 
-## ✨ Features
+## ✨ Planned Features
 
 - 👥 **Multi-user support** - Multiple users can have separate encrypted password vaults
 - 🔒 **Strong encryption** - Uses libsodium's authenticated encryption (XSalsa20 + Poly1305)
@@ -71,12 +77,12 @@ sudo dnf install xclip      # Fedora
 
 ### Linux/macOS 🐧🍎
 ```bash
-gcc -o vaultcli vaultcli.c -lsodium
+gcc -o NexCrypt NexCrypt.c -lsodium
 ```
 
 ### Windows (MinGW) 🪟
 ```bash
-gcc -o vaultcli.exe vaultcli.c -lsodium -lws2_32
+gcc -o NexCrypt.exe NexCrypt.c -lsodium -lws2_32
 ```
 
 ## 🚀 Usage
@@ -85,7 +91,7 @@ gcc -o vaultcli.exe vaultcli.c -lsodium -lws2_32
 
 1. **Run the program** 🏃‍♂️
    ```bash
-   ./vaultcli
+   ./NexCrypt
    ```
 
 2. **Register a new user** 📝
@@ -186,28 +192,7 @@ This is a simple educational password manager. For production use, consider esta
 - LastPass 📋
 
 ## 📄 License
-
-MIT License
-
-Copyright (c) 2025 VaultCLI
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+This project is licensed under the MIT License, but is not production-grade software. See LICENSE for details.
 
 ## ⚠️ Disclaimer
 
