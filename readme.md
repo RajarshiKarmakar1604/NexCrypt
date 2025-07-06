@@ -76,14 +76,16 @@ sudo dnf install xclip      # Fedora
 ## ⚙️ Compilation
 
 ### Linux/macOS 🐧🍎
+Make sure libsodium is installed (`sudo apt install libsodium-dev` or `brew install libsodium`), then:
 ```bash
 gcc -o NexCrypt NexCrypt.c -lsodium
 ```
 
 ### Windows (MinGW) 🪟
 ```bash
-gcc -o NexCrypt.exe NexCrypt.c -lsodium -lws2_32
+gcc main.c -IC:"path of your Libsodium .\include folder" -LC:"path of your Libsodium .\lib folder" -lsodium -o NexCrypt.exe
 ```
+📝 Ensure libsodium.dll is either in the same directory as NexCrypt.exe or added to your system PATH.
 
 ## 🚀 Usage
 
