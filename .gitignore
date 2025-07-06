@@ -2,6 +2,7 @@
 user_data.txt
 user_salts.txt
 passwords.txt
+command.txt
 
 # Temporary files
 temp_user.txt
@@ -10,9 +11,10 @@ temp_pass.txt
 temp.txt
 readme.txt
 
+
 # Compiled binaries
-vaultcli
-vaultcli.exe
+NexCrypt
+NexCrypt.exe
 *.o
 *.obj
 
