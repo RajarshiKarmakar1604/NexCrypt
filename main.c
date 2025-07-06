@@ -715,7 +715,7 @@ int main() {
     unsigned char master_key[KEY_LEN];
 
     while (1) {
-        printf("\n*** Welcome to VaultCLI ***\n");
+        printf("\n*** Welcome to NexCrypt ***\n");
         printf("1. Register\n2. Login\n3. Exit\nEnter choice: ");
         scanf("%d", &choice);
         getchar(); // Consume newline
