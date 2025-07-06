@@ -80,7 +80,6 @@ Make sure libsodium is installed (`sudo apt install libsodium-dev` or `brew inst
 ```bash
 gcc -o NexCrypt NexCrypt.c -lsodium
 ```
-
 ### Windows (MinGW) 🪟
 ```bash
 gcc main.c -IC:"path of your Libsodium .\include folder" -LC:"path of your Libsodium .\lib folder" -lsodium -o NexCrypt.exe
